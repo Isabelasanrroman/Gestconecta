@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Gest Conecta</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style> 
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .top-bar {
+      background-color: #B5AAE6;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .empresa-nome {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .icones {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+
+    .icones i {
+      color: white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .logo {
+      text-align: center;
+      margin: 20px 0 10px;
+    }
+
+    .logo img {
+      width: 200px;
+    }
+
+    .slogan {
+      text-align: center;
+      font-size: 20px;
+      font-style: italic;
+      color: #6C5CE7;
+      margin-bottom: 25px;
+      font-weight: 500;
+    }
+
+    .conteudo {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .busca {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+
+    .doula-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .doula-card {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 30%;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+      min-width: 250px;
+    }
+
+    .doula-info {
+      margin-bottom: 10px;
+    }
+
+    .doula-info h3 {
+      margin: 0 0 5px 0;
+    }
+
+    .doula-info p {
+      margin: 2px 0;
+    }
+
+    .link-falso {
+      color: #1a73e8;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-top: 5px;
+    }
+
+    .doula-card button {
+      background-color: #B5AAE6;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 900px) {
+      .doula-card {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .doula-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="top-bar">
+    <div class="empresa-nome">Gest Conecta</div>
+    <div class="icones">
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-bell"></i>
+      <i class="fas fa-user-circle"></i>
+    </div>
+  </header>
+
+  <div class="logo">
+    <img src="1000102754.jpg" alt="Logo Gest Conecta">
+  </div>
+
+  <div class="slogan">
+    <p>Garantimos à voce segurança, apoio e carinho durante sua gestação.</p>
+  </div>
+
+  <div class="conteudo">
+    <input type="text" placeholder="Buscar doula por nome..." class="busca">
+
+    <div class="doula-container">
+      <div class="doula-card"><div class="doula-info"><h3>Maria Silva</h3><p>Email: maria@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Ana Alice</h3><p>Email: ana@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Juliana Martins</h3><p>Email: juliana@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Paula Ferraz</h3><p>Email: paula@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Carla Muniz</h3><p>Email: carla@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Fernanda Dias</h3><p>Email: fernanda@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Renata Costa</h3><p>Email: renata@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Patrícia Rocha</h3><p>Email: patricia@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Sandra Lima</h3><p>Email: sandra@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Camila Nunes</h3><p>Email: camila@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Beatriz Borges</h3><p>Email: beatriz@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+      <div class="doula-card"><div class="doula-info"><h3>Luciana Lima</h3><p>Email: luciana@email.com</p><p class="link-falso">Ver mais informações</p></div><button>Entrar em contato</button></div>
+    </div>
+  </div>
+</body>
+</html>
